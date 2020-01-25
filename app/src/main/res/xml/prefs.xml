@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings">
+
+        <ListPreference
+            android:entries="@array/imagequality"
+            android:entryValues="@array/imagequality_values"
+            android:key="pref_imagequality"
+            android:summary="Choose image quality"
+            android:title="Image Quality" />
+
+        <ListPreference
+            android:entries="@array/showimagesonstart"
+            android:entryValues="@array/showimagesonstart_values"
+            android:key="pref_showimagesonstart"
+            android:summary="Set first image category in app start"
+            android:title="First image category" />
+    </PreferenceCategory>
+</PreferenceScreen>

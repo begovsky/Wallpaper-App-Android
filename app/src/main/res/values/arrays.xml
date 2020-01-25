@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="imagequality">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="imagequality_values">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+
+    <string-array name="showimagesonstart">
+        <item>Animals</item>
+        <item>Nature</item>
+        <item>Love</item>
+        <item>Car</item>
+        <item>Adventure</item>
+        <item>Food</item>
+        <item>Child</item>
+        <item>People</item>
+    </string-array>
+    <string-array name="showimagesonstart_values">
+        <item>animals</item>
+        <item>nature</item>
+        <item>love</item>
+        <item>car</item>
+        <item>adventure</item>
+        <item>food</item>
+        <item>child</item>
+        <item>people</item>
+    </string-array>
+</resources>

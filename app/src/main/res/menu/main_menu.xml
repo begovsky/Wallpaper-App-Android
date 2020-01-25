@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/animals"
+            android:title="Animals" />
+
+        <item
+            android:id="@+id/nature"
+            android:title="Nature" />
+
+        <item
+            android:id="@+id/love"
+            android:title="Love" />
+
+        <item
+            android:id="@+id/car"
+            android:title="Cars" />
+
+        <item
+            android:id="@+id/adventure"
+            android:title="Adventure" />
+
+        <item
+            android:id="@+id/food"
+            android:title="Food" />
+
+        <item
+            android:id="@+id/child"
+            android:title="Child" />
+
+        <item
+            android:id="@+id/people"
+            android:title="People" />
+    </group>
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WallpaperActivity">
+
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/wallpaperImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttons"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/app_bar_layout"
+        android:src="@drawable/wallpaper" />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSetWallpaper"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/baseline_wallpaper_white_24"
+            android:textColor="@android:color/white"
+            android:onClick="btnSetWallpaperEvent"
+            android:textAllCaps="false"
+            android:text="Wallpaper" />
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/baseline_favorite_white_24"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:onClick="btnSaveEvent"
+            android:text="Save" />
+
+
+        <Button
+            android:id="@+id/btnShare"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@drawable/baseline_share_white_24"
+            android:onClick="btnShareEvent"
+            android:textAllCaps="false"
+            android:text="Share" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
